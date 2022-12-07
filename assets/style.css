@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
+
+
+@media screen and (max-width: 500px){
+    .infoCard{
+        max-width: 360px;
+    }
+    
+}
+
+@media screen and (min-width: 720px){
+    .infoCard{
+        max-width: 500px;
+    }
+    
+}
+
+:root{
+    --bg-color: #0f0f0f;
+    --primary-color: #1F1F1F;
+    --second-color: #292929;
+    --icon-primary: #FFFFFF;
+    --icon-second: #A9A5A5;
+    --receita-color: #64FF7D;
+    --despesas-color: #FF6464;
+
+    color: var(--icon-second);
+
+    
+}
+
+/* REST LINK STYLE */
+a{
+    color: var(--icon-primary);
+    text-decoration: none;
+}
+
+.navbar-brand span:nth-of-type(1){
+    font-size: 1rem;
+}
+
+.navbar-brand span:nth-of-type(2){
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.nav-item{
+    margin-left: 1rem;
+}
+
+body{
+    background-color: var(--bg-color);
+    font-family: 'Inter', sans-serif;
+}
+
+article{
+    color: var(--icon-second);
+}
+
+.infoCard{
+    background-color: var(--primary-color);
+    border-radius: 0.8rem;
+}
+
+.resumeDivDesc{
+    font-size: 0.8rem;
+}
+
+.resumeDivValues{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.receita{
+    color: var(--receita-color);
+}
+
+.despesas{
+    color: var(--despesas-color);
+}
+
+.verExtrato{
+    background-color: var(--second-color);
+    border-radius: 0 0 0.8rem 0.8rem;
+}
+
+.creditCard{
+    height: 100px;
+}
+
+.creditDivNumbers div:nth-of-type(2){
+    font-size: 1.2rem;
+    font-weight: 900;
+}
