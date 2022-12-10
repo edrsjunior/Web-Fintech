@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+    <!-- OTHER IMPORTS -->
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/css/extrato.css">
+
+    <title>Meu Extrato</title>
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <span>Bom dia</span>
+                    <br>
+                    <span>Edilson</span>
+                </a>
+                <div class="justify-content-end">
+                    <a class="nav-item" href="#">
+                        <svg height= "40" width="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16 19C16 21.2092 14.2092 23 12 23C9.79085 23 8 21.2092 8 19C8 16.7908 9.79085 15 12 15C14.2092 15 16 16.7908 16 19Z" fill="#D9D9D9"/>
+                            <path d="M19.5809 8.9758C19.2524 5.03285 15.9563 2 11.9997 2C8.043 2 4.7469 5.03285 4.41832 8.9758L4.15425 12.1447C4.05254 13.3653 3.67195 14.5462 3.04182 15.5963L2.20476 16.9914C1.4965 18.1719 1.88852 19.3858 3.25183 19.5767C4.83755 19.7987 7.5126 20 11.9997 20C16.4867 20 19.1618 19.7987 20.7474 19.5767C22.1108 19.3858 22.5028 18.1719 21.7945 16.9914L20.9575 15.5963C20.3274 14.5462 19.9468 13.3653 19.8451 12.1447L19.5809 8.9758Z" fill="white"/>
+                            <path d="M20 5C20 6.65685 18.6568 8 17 8C15.3432 8 14 6.65685 14 5C14 3.34315 15.3432 2 17 2C18.6568 2 20 3.34315 20 5Z" fill="#D9D9D9"/>
+                        </svg>
+    
+                    </a>
+                    <a class="nav-item" href="#">
+                        <svg height= "40" width="40" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="19.5" cy="19.5" r="19.5" fill="#292929"/>
+                            <g clip-path="url(#clip0_105_18)">
+                            <path d="M20 19C22.5642 19 24.6428 16.9213 24.6428 14.3571C24.6428 11.793 22.5642 9.71428 20 9.71428C17.4358 9.71428 15.3571 11.793 15.3571 14.3571C15.3571 16.9213 17.4358 19 20 19Z" stroke="#9F9D9D" stroke-width="1.71429" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M28.8286 28.2857C28.2288 26.4155 27.0507 24.7841 25.464 23.6266C23.8773 22.4692 21.964 21.8455 20 21.8455C18.036 21.8455 16.1227 22.4692 14.536 23.6266C12.9493 24.7841 11.7712 26.4155 11.1714 28.2857H28.8286Z" stroke="#9F9D9D" stroke-width="1.71429" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_105_18">
+                            <rect width="20" height="20" fill="white" transform="translate(10 9)"/>
+                            </clipPath>
+                            </defs>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <article>
+        
+        <div class="container resumeDiv infoCard text-center mt-4">
+            <div class="row title justify-content-center align-items-center ">
+             <h3 class="col-12 mt-3">Seu extrato</h3>
+            </div>
+            <div class="row justify-content-center align-items-center mt-3">
+                <h5 class="col-3">Descricao</h5>
+                <h5 class="col-3">Data</h5>
+                <h5 class="col-3">Valor</h5>
+                <h5 class="col-3">Editar</h5>
+            </div>
+            <div class="row items justify-content-center align-items-center mb-4">
+                <div class="col-3">
+                    <span>Compra no mercado</span>
+                </div>
+                <div class="col-3">
+                    <span>10/10/2021</span>
+                </div>
+                <div class="col-3">
+                    <span>-R$ 100,00</span>
+                </div>
+                <div class="col-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pencil-fill" viewBox="0 0 16 16">
+                        <path d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"/>
+                      </svg>
+                </div>
+            </div>
+            <div class="row items justify-content-center align-items-center mb-4">
+                <div class="col-3">
+                    <span>Compra no mercado</span>
+                </div>
+                <div class="col-3">
+                    <span>10/10/2021</span>
+                </div>
+                <div class="col-3">
+                    <span>-R$ 100,00</span>
+                </div>
+                <div class="col-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pencil-fill" viewBox="0 0 16 16">
+                        <path d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"/>
+                      </svg>
+                </div>
+            </div>
+            <div class="row items justify-content-center align-items-center mb-4">
+                <div class="col-3">
+                    <span>Compra no mercado</span>
+                </div>
+                <div class="col-3">
+                    <span>10/10/2021</span>
+                </div>
+                <div class="col-3">
+                    <span>-R$ 100,00</span>
+                </div>
+                <div class="col-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pencil-fill" viewBox="0 0 16 16">
+                        <path d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"/>
+                      </svg>
+                </div>
+            </div>
+            <div class="row items justify-content-center align-items-center mb-4">
+                <div class="col-3">
+                    <span>Compra no mercado</span>
+                </div>
+                <div class="col-3">
+                    <span>10/10/2021</span>
+                </div>
+                <div class="col-3">
+                    <span>-R$ 100,00</span>
+                </div>
+                <div class="col-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pencil-fill" viewBox="0 0 16 16">
+                        <path d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"/>
+                      </svg>
+                </div>
+            </div>
+            <div class="row items justify-content-center align-items-center mb-4">
+                <div class="col-3">
+                    <span>Compra no mercado</span>
+                </div>
+                <div class="col-3">
+                    <span>10/10/2021</span>
+                </div>
+                <div class="col-3">
+                    <span>-R$ 100,00</span>
+                </div>
+                <div class="col-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pencil-fill" viewBox="0 0 16 16">
+                        <path d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"/>
+                      </svg>
+                </div>
+            </div>
+            <div class="row items justify-content-center align-items-center mb-4">
+                <div class="col-3">
+                    <span>Compra no mercado</span>
+                </div>
+                <div class="col-3">
+                    <span>10/10/2021</span>
+                </div>
+                <div class="col-3">
+                    <span>-R$ 100,00</span>
+                </div>
+                <div class="col-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pencil-fill" viewBox="0 0 16 16">
+                        <path d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"/>
+                      </svg>
+                </div>
+            </div>
+            <div class="row items justify-content-center align-items-center mb-4">
+                <div class="col-3">
+                    <span>Compra no mercado</span>
+                </div>
+                <div class="col-3">
+                    <span>10/10/2021</span>
+                </div>
+                <div class="col-3">
+                    <span>-R$ 100,00</span>
+                </div>
+                <div class="col-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pencil-fill" viewBox="0 0 16 16">
+                        <path d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"/>
+                      </svg>
+                </div>
+            </div>
+            <div class="row items justify-content-center align-items-center mb-4">
+                <div class="col-3">
+                    <span>Compra no mercado</span>
+                </div>
+                <div class="col-3">
+                    <span>10/10/2021</span>
+                </div>
+                <div class="col-3">
+                    <span>-R$ 100,00</span>
+                </div>
+                <div class="col-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pencil-fill" viewBox="0 0 16 16">
+                        <path d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"/>
+                      </svg>
+                </div>
+            </div>
+            <div class="row items justify-content-center align-items-center mb-4">
+                <div class="col-3">
+                    <span>Compra no mercado</span>
+                </div>
+                <div class="col-3">
+                    <span>10/10/2021</span>
+                </div>
+                <div class="col-3">
+                    <span>-R$ 100,00</span>
+                </div>
+                <div class="col-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pencil-fill" viewBox="0 0 16 16">
+                        <path d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"/>
+                      </svg>
+                </div>
+            </div>
+            <div class="row"></div>
+            
+
+        
+                         
+            
+            </div>
+         </div>
+    </article>
+
+    <footer>
+
+    </footer>
+
+     <!-- JavaScript Bundle with Popper -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+     <script src="./assets/script.js"></script>
+</body>
+</html>

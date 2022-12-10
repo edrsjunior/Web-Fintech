@@ -10,7 +10,7 @@
 }
 
 @media screen and (min-width: 720px){
-    .infoCard{
+    .infoCard, .menu{
         max-width: 500px;
     }
     
@@ -31,7 +31,7 @@
 }
 
 /* REST LINK STYLE */
-a{
+a, a:hover{
     color: var(--icon-primary);
     text-decoration: none;
 }
@@ -52,9 +52,6 @@ a{
 body{
     background-color: var(--bg-color);
     font-family: 'Inter', sans-serif;
-}
-
-article{
     color: var(--icon-second);
 }
 

@@ -1,0 +1,60 @@
+:root{
+    --bg-color: #0f0f0f;
+    --primary-color: #1F1F1F;
+    --second-color: #292929;
+    --icon-primary: #FFFFFF;
+    --icon-second: #A9A5A5;
+    --receita-color: #64FF7D;
+    --despesas-color: #FF6464;
+
+    color: var(--icon-second);
+
+    
+}
+
+.conteudo{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.conteudo button{
+    display: flex;
+    margin: auto;
+}
+
+#bgVideo{
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    filter: blur(0.8rem);
+    opacity: 55%;
+}
+
+body{
+    margin: 0;
+    color: var(--icon-primary);
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+    
+}
+
+.btn{
+    background-color: var(--second-color);
+    color: var(--icon-primary);
+}
+
+.btn, input{
+    opacity: 90%;
+}
